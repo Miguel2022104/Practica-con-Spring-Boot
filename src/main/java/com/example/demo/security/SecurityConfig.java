@@ -8,6 +8,8 @@ import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
 @EnableWebSecurity
+
+/* Accesso para las otras clases*/
 public class SecurityConfig {
 
     @Bean
