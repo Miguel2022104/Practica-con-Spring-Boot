@@ -1,3 +1,4 @@
 package com.example.demo.dto;
 
-public record AuthResponse(String token) {}
+public record AuthResponse(String token) {
+}
