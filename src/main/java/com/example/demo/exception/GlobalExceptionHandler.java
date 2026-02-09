@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.HashMap;
 import java.util.Map;
 
+/*Clase para el manejo de errores en el programa*/
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
