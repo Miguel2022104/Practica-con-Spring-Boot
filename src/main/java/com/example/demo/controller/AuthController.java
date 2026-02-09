@@ -9,15 +9,19 @@ import com.example.demo.security.JwtUtil;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
+
+/*Esta es la clase de Controller*/
 @RestController
 @RequestMapping("/api/auth")
 @CrossOrigin("*")
 public class AuthController {
 
+
     private final UsuarioRepository repo;
     private final PasswordEncoder encoder;
     private final JwtUtil jwt;
 
+    /*Constructor*/
     public AuthController(UsuarioRepository repo, PasswordEncoder encoder, JwtUtil jwt) {
         this.repo = repo;
         this.encoder = encoder;
