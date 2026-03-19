@@ -1,4 +1,11 @@
 package com.example.demo.dto;
- /*Archivo para generaer el token para la autenticacion del login*/
-public record AuthResponse(String token) {
+
+/**
+ * Respuesta de autenticación que incluye el token
+ * y el tipo de autorización utilizado.
+ */
+public record AuthResponse(
+        String token,
+        String type
+) {
 }
