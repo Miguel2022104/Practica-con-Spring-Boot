@@ -12,6 +12,7 @@ import org.springframework.web.filter.OncePerRequestFilter;
 import java.io.IOException;
 import java.util.List;
 
+/*Autenticación y validación  */
 @Component
 public class JwtFilter extends OncePerRequestFilter {
 
